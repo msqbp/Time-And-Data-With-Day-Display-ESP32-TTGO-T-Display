@@ -6,7 +6,7 @@
 const char* ssid = "xyz";
 const char* password = "xyz";
 
-const long utcOffsetInSeconds = 2 * 3600; // Central European Time (UTC+1)
+const long utcOffsetInSeconds = 2 * 3600; // Central European Time (UTC+2)
 
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "pool.ntp.org", utcOffsetInSeconds);
